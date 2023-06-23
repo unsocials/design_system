@@ -1,0 +1,122 @@
+/* 
+-----------------------------
+
+Agency: unsocials
+Agency URI: http://www.unsocials.com
+Author: Mez - Massimo Maestri
+Description: Importazione dei singoli elementi di design del sito web.
+Version: 1.0.0
+
+-----------------------------
+*/
+
+/* All Elements Atomic*/
+@import url('elements/heading.css');
+@import url('elements/quotation.css');
+@import url('elements/button.css');
+@import url('elements/list.css');
+@import url('elements/media.css');
+@import url('elements/color.css');
+@import url('elements/font.css');
+
+/* All Elements Design*/
+@import url('elements/form.css');
+@import url('elements/table.css');
+@import url('elements/card.css');
+@import url('elements/tab.css');
+@import url('elements/menu.css');
+
+
+/* Navbar */
+.sticky {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 0;
+    background-color: #313131;
+    padding: 0px 20px;
+    box-shadow: 0px 0px 10px -4px #000;
+    border-bottom: none !important;
+}
+.sticky .nav a{
+    color: #fff!important;
+}
+
+
+/* Style Design System */
+.container img.logo {
+    width: 80px;
+}
+.container a{
+    text-decoration: none!important;
+}
+.container span.name{
+    margin-left: 10px;
+    color: #000;
+}
+.container footer img{
+    width: 80px;
+}
+
+.container section.header{
+    padding: 5%;
+}
+.container section.header h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: 'Futura';
+}
+
+.container section.header p{
+    font-size: 26px;
+}
+.container header button {
+    border: 1px solid #313131;
+}
+.container header button:hover{
+    background-color: #313131;
+    border: 1px solid #313131;
+}
+.container header button a{
+    color: #313131;
+}
+.container header button:hover a{
+    color: #fff;
+}
+
+/* Formattazione codice */
+
+pre.code{
+    background-color: #1f233b;
+    box-shadow: 0px 0px 10px -3px #000;
+}
+pre code{
+    color: #fff;
+    font-size: 12px;
+}
+pre code span.tag{
+    color: #efab56;
+}
+pre code span.attribute{
+    color: #22a0a4;
+}
+pre code span.value{
+    color: #78e0c1;
+}
+
+/* COMPONENST */
+section.components .container{
+    padding-top: 20px;
+}
+
+section.components .container{
+    padding-top: 20px;
+}
+
+section.components .container .title {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Futura';
+    color: #00ffab;
+    font-weight: bold;
+  }
