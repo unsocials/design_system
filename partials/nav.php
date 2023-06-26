@@ -41,8 +41,9 @@
         <nav class="nav nav-underline justify-content-between">
           <a class="nav-item nav-link link-body-emphasis" href="/components?section=form">Form</a>
           <a class="nav-item nav-link link-body-emphasis" href="/components?section=table">Table</a>
+          <a class="nav-item nav-link link-body-emphasis" href="/components?section=accordion">Accordion</a>
+          <a class="nav-item nav-link link-body-emphasis" href="/components?section=alert">Alert</a>
           <a class="nav-item nav-link link-body-emphasis" href="/components?section=card">Card</a>
-          <a class="nav-item nav-link link-body-emphasis" href="/components?section=tab">Tab</a>
           <a class="nav-item nav-link link-body-emphasis" href="/components?section=menu">Menu</a>
         </nav>
       </div>
