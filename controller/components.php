@@ -4,12 +4,12 @@
 
 if(isset($query)){
     parse_str($query, $output);
-    $query = $output['components'];
+    $query = $output['section'];
 }
 
-views('design.view.php', [
-    'title' => '<b>Design</b> System',
+views('components.view.php', [
+    'title' => '<b>Components</b> System',
     'description' => 'Il <b>design system</b> delle sezioni',
-    'nav' => 'design',
-    'components' => $query,
+    'nav' => 'components',
+    'section' => $query,
 ]);

@@ -13,8 +13,8 @@
 <!-- Inizio Contenuto -->
 
     <!-- HEADING -->
-    <?php if(isset($components)) : ?>
-        <?php require base_path('views/components/atomic/' . $components . '.view.php'); ?>
+    <?php if(isset($section)) : ?>
+        <?php require base_path('views/section/content/' . $section . '.view.php'); ?>
     <?php endif ?>
 
 <!-- Fine Contenuto -->

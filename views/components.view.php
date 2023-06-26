@@ -14,8 +14,8 @@
 
     <!-- inserisci qui.... -->
         <!-- HEADING -->
-    <?php if(isset($components)) : ?>
-        <?php require base_path('views/components/design/' . $components . '.view.php'); ?>
+    <?php if(isset($section)) : ?>
+        <?php require base_path('views/section/components/' . $section . '.view.php'); ?>
     <?php endif ?>
 
 <!-- Fine Contenuto -->

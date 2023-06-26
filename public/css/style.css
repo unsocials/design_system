@@ -119,4 +119,21 @@ section.components .container .title {
     font-family: 'Futura';
     color: #00ffab;
     font-weight: bold;
-  }
+}
+
+section.components.color .palette{
+    display: flex;
+    align-items: center;
+}
+
+section.components.color .palette .box{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+section.components.color .palette p{
+    margin: 0px;
+    font-size: 20px;
+}

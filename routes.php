@@ -6,5 +6,6 @@
  */
 
 $router->get('/', 'controller/index.php');
-$router->get('/atomic', 'controller/atomic.php');
-$router->get('/design', 'controller/design.php');
+$router->get('/content', 'controller/content.php');
+$router->get('/components', 'controller/components.php');
+$router->get('/layout', 'controller/layout.php');

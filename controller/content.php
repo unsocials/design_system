@@ -4,12 +4,12 @@
 
 if(isset($query)){
     parse_str($query, $output);
-    $query = $output['components'];
+    $query = $output['section'];
 }
 
-views('atomic.view.php', [
-    'title' => '<b>Atomic</b> Design',
+views('content.view.php', [
+    'title' => '<b>Content</b> Design',
     'description' => 'Il <b>design system</b> dei componenti',
-    'nav' => 'atomic',
-    'components' => $query,
+    'nav' => 'content',
+    'section' => $query,
 ]);
